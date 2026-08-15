@@ -269,7 +269,11 @@ body {
 .section {
   padding: 46px 0;
 
-  h2 { margin-top: 0; }
+  h2 {
+    margin-top: 0;
+    color: $cor-titulo;
+    text-shadow: 0 0 20px rgba(255, 232, 31, 0.3);
+  }
 
   // fundo translúcido deixa a textura metálica do body vazar
   &--panel {
